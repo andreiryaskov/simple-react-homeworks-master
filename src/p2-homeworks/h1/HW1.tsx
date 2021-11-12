@@ -9,10 +9,10 @@ export const messageData = {
 }
 
 export type MessageDataType = {
-    avatar: any
+    avatar: string
     name: string
     message: string
-    time: any
+    time: string
 }
 
 function HW1() {
