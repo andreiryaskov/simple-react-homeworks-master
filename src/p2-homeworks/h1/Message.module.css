@@ -1,7 +1,7 @@
 .message_wrapper {
     position: relative;
     min-height: 150px;
-    width: 300px;
+    width: 400px;
     display: flex;
     background-color: darkseagreen;
     align-items: flex-end;
@@ -13,36 +13,41 @@
     height: 60px;
     width: 60px;
     border-radius: 100%;
-    border: 20px solid darkseagreen;
-    position: absolute;
-    bottom: -10px;
-    left: -10px;
-    z-index: 10;
+    /*border: 20px solid darkseagreen;*/
+    /*position: absolute;*/
+    /*bottom: -10px;*/
+    /*left: -10px;*/
+    /*z-index: 10;*/
 }
 
 .message_textWrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
     height: 100px;
     width: 200px;
     border-radius: 5px;
     padding: 10px;
-    position: absolute;
-    left: 90px;
+    margin-left: 30px;
+    /*position: absolute;*/
+    /*left: 90px;*/
     background-color: coral;
-    z-index: 1;
+    /*z-index: 1;*/
 }
 
 .message_smallBlock {
-    height: 30px;
+    height: 25px;
     width: 30px;
-    background-color: coral;
+    /*background-color: coral;*/
     position: absolute;
-    left: 70px;
+    left: 75px;
+    background: radial-gradient(circle at 0 0, rgba(0,0,0,0) 25px, coral 0);
 }
 
 .message_time {
     position: absolute;
-    bottom: 10px;
-    right: 10px;
+    bottom: 5px;
+    right: 5px;
     color: blanchedalmond;
 }
 
