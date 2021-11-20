@@ -22,9 +22,9 @@ const defaultAffairs: AffairType[] = [ // need to fix any
 // pure helper functions
 export const filterAffairs = (affairs: AffairType[], filter: FilterType): AffairType[] => { // need to fix any
     if (filter === 'all') return affairs
-    // else if (filter === 'high') return affairs.filter(item => item.priority === 'high')
-    // else if (filter === 'low') return affairs.filter(item => item.priority === 'low')
-    // else if (filter === 'middle') return affairs.filter(item => item.priority === 'middle')
+        // else if (filter === 'high') return affairs.filter(item => item.priority === 'high')
+        // else if (filter === 'low') return affairs.filter(item => item.priority === 'low')
+        // else if (filter === 'middle') return affairs.filter(item => item.priority === 'middle')
     // else return affairs
     else return affairs.filter(item => item.priority === filter)
 }
