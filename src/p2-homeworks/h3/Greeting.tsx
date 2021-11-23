@@ -1,5 +1,4 @@
 import React, {ChangeEvent, KeyboardEvent} from 'react'
-import s from './Greeting.module.css'
 import style from './Greeting.module.css'
 
 type GreetingPropsType = {
@@ -15,9 +14,11 @@ type GreetingPropsType = {
 const Greeting: React.FC<GreetingPropsType> = (
     {name, setNameCallback, addUser, error, totalUsers, onEnter} // деструктуризация пропсов
 ) => {
-    const inputClass = error ? s.errorInput : s.input // need to fix with (?:)
+    const inputClass = error ? style.errorInput : style.input // need to fix with (?:)
 
 
+
+    // @ts-ignore
     return (
         <div className={style.greeting_wrapper}>
             <input value={name}
