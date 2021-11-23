@@ -1,13 +1,12 @@
 .affair_wrapper {
-    min-width: 400px;
+    width: 440px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: darkseagreen;
 }
 
 .affair_name {
-    color: aliceblue;
+    color: darkgreen;
     margin: 10px;
     font-size: 15px;
 }
@@ -15,19 +14,19 @@
 .affair_deleteButton {
     margin: 5px 20px;
     cursor: pointer;
-    background-color: coral;
-    color: aliceblue;
+    background-color: dodgerblue;
+    color: darkred;
     border: 1px solid aliceblue;
     border-radius: 3px;
 
 }
 
 .affairs_buttonWrapper {
+    width: 400px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 5px 20px;
-    background-color: darkseagreen;
 }
 
 .affairs_button {
