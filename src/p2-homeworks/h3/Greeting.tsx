@@ -17,17 +17,19 @@ const Greeting: React.FC<GreetingPropsType> = (
     const inputClass = error ? style.errorInput : style.input // need to fix with (?:)
 
 
-
     // @ts-ignore
     return (
         <div className={style.greeting_wrapper}>
-            <input value={name}
-                   onChange={setNameCallback}
-                   onKeyDown={onEnter}
-                   className={inputClass}/>
-            <span>{error}</span>
-            <button onClick={addUser}>add</button>
-            <span>{totalUsers}</span>
+            <div className={style.input_wrapper}>
+                <input value={name}
+                       onChange={setNameCallback}
+                       onKeyDown={onEnter}
+                       className={inputClass}/>
+                <button onClick={addUser}>add</button>
+                <div className={style.totalUsers}>{totalUsers}</div>
+            </div>
+            <span className={style.errorText}>{error}</span>
+
         </div>
     )
 }

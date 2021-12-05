@@ -15,7 +15,7 @@ function HW3() {
     const addUserCallback = (name: string) => {
         const user = {_id: v1(), name: name}// need to fix any
         let newUsers = [...users, user]
-        setUsers(newUsers)
+        user.name !== '' ? setUsers(newUsers) : ''
     }
 
     // @ts-ignore

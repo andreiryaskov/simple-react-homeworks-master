@@ -1,10 +1,43 @@
 .greeting_wrapper {
+    display: flex;
+    flex-direction: column;
 }
 
-.inputClass {
-
+.input_wrapper {
+    display: flex;
+}
+.input_wrapper button {
+    border: 1px solid dodgerblue;
+    border-radius: 3px;
+    color: white;
+    background-color: dodgerblue;
 }
 
-.error {
+.input {
+    margin: 0px 10px;
+    outline: none;
+}
+
+.errorInput {
     border: 1px solid red;
+    margin: 0px 10px;
+    outline: none;
+}
+
+.errorText {
+    color: red;
+    font-size: 30px;
+    margin: 5px 10px;
+}
+
+.totalUsers {
+    width: 20px;
+    height: 20px;
+    border: 1px solid dodgerblue;
+    border-radius: 100%;
+    background-color: white;
+    margin-left: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
 }
