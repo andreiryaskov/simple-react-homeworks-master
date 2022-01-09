@@ -7,7 +7,8 @@
     display: flex;
 }
 .input_wrapper button {
-    border: 1px solid dodgerblue;
+    height: 20px;
+    border: 1px solid white;
     border-radius: 3px;
     color: white;
     background-color: dodgerblue;
