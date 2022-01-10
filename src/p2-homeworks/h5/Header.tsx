@@ -5,21 +5,22 @@ import s from './Header.module.css';
 
 function Header() {
     return (
-        <div className={s.header}>
-            <ul>
-                <li><NavLink to={PATH.PRE_JUNIOR}
-                             className={s.link}>
+        <div className={s.header_nav}>
+                <NavLink to={PATH.PRE_JUNIOR}
+                         className={`${s.link} ${s.border}`}>
                     PRE-JUNIOR
-                </NavLink></li>
-                <li><NavLink to={PATH.JUNIOR}
-                             className={s.link}>
+                </NavLink>
+                <NavLink to={PATH.JUNIOR}
+                         className={`${s.link} ${s.border}`}>
                     JUNIOR
-                </NavLink></li>
-                <li><NavLink to={PATH.JUNIOR_PLUS}
-                             className={s.link}>
+                </NavLink>
+                <NavLink to={PATH.JUNIOR_PLUS}
+                             className={`${s.link} ${s.border}`}>
                     JUNIOR+
-                </NavLink></li>
-            </ul>
+                </NavLink>
+                <nav className={`${s.menu_nav} ${s.border}`}>
+                    MENU
+                </nav>
         </div>
     )
 }
