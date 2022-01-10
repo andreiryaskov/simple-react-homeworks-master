@@ -1,13 +1,13 @@
 import React from 'react'
-import HW1 from '../../h1/HW1'
-import HW2 from '../../h2/HW2'
-import HW3 from '../../h3/HW3'
-import HW4 from '../../h4/HW4'
+import s from './../Header.module.css';
 
 function JuniorPlus() {
     return (
         <div>
-            JUNIOR PLUS
+            <h1>JUNIOR PLUS</h1>
+            <img className={s.jun_img}
+                 src="https://crosti.ru/patterns/00/0a/b0/47012fc8f5/preview.jpg"
+                 alt="JunPlus"/>
         </div>
     )
 }

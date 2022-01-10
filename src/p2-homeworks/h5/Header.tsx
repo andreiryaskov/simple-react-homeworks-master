@@ -9,15 +9,15 @@ function Header() {
             <ul>
                 <li><NavLink to={PATH.PRE_JUNIOR}
                              className={s.link}>
-                    pre-junior
+                    PRE-JUNIOR
                 </NavLink></li>
                 <li><NavLink to={PATH.JUNIOR}
                              className={s.link}>
-                    junior
+                    JUNIOR
                 </NavLink></li>
                 <li><NavLink to={PATH.JUNIOR_PLUS}
                              className={s.link}>
-                    junior-plus
+                    JUNIOR+
                 </NavLink></li>
             </ul>
         </div>
