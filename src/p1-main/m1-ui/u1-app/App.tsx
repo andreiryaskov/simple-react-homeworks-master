@@ -6,6 +6,7 @@ import HW3 from "../../../p2-homeworks/h3/HW3";
 import HW4 from "../../../p2-homeworks/h4/HW4";
 import HW5 from "../../../p2-homeworks/h5/HW5";
 import Routes from "../../../p2-homeworks/h5/Routes";
+import HW6 from "../../../p2-homeworks/h6/HW6";
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                 {/*<HW3/>*/}
                 {/*<HW4/>*/}
                 <HW5/>
+                <HW6/>
         </div>
     )
 }
