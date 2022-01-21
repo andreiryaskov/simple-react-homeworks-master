@@ -19,12 +19,12 @@ function HW6() {
     }
 
     return (
-        <div>
+        <div className={s.hw_wrapper}>
             <hr/>
             <h2>homeworks 6</h2>
 
             {/*should work (должно работать)*/}
-            <div className={s.hw_wrapper}>
+            <div >
                 <div>
                     <SuperEditableSpan
                         value={value}
