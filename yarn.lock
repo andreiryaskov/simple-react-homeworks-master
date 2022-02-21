@@ -1610,6 +1610,13 @@
   dependencies:
     "jest-diff" "^24.3.0"
 
+"@types/jquery@^3.5.13":
+  "integrity" "sha512-ZxJrup8nz/ZxcU0vantG+TPdboMhB24jad2uSap50zE7Q9rUeYlCF25kFMSmHR33qoeOgqcdHEp3roaookC0Sg=="
+  "resolved" "https://registry.npmjs.org/@types/jquery/-/jquery-3.5.13.tgz"
+  "version" "3.5.13"
+  dependencies:
+    "@types/sizzle" "*"
+
 "@types/json-schema@^7.0.3":
   "integrity" "sha512-8+KAKzEvSUdeo+kmqnKrqgeE+LcA0tjYWFY7RPProVYwnqDjukzO+3b6dLD56rYX5TdWejnEOLJYOIeh4CXKuA=="
   "resolved" "https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.4.tgz"
@@ -1691,6 +1698,11 @@
   dependencies:
     "@types/prop-types" "*"
     "csstype" "^2.2.0"
+
+"@types/sizzle@*":
+  "integrity" "sha512-JYM8x9EGF163bEyhdJBpR2QX1R5naCJHC8ucJylJ3w9/CVBaskdQ8WqBf8MmQrd1kRvp/a4TS8HJ+bxzR7ZJYQ=="
+  "resolved" "https://registry.npmjs.org/@types/sizzle/-/sizzle-2.3.3.tgz"
+  "version" "2.3.3"
 
 "@types/stack-utils@^1.0.1":
   "integrity" "sha512-l42BggppR6zLmpfU6fq9HEa2oGPEI8yrSPL3GITjfRInppYFahObbIQOQK3UGxEnyQpltZLaPe75046NOZQikw=="
@@ -5529,6 +5541,11 @@
   dependencies:
     "loose-envify" "^1.0.0"
 
+"ion-rangeslider@^2.3.1":
+  "integrity" "sha512-6V+24FD13/feliI485gnRHZYD9Ev64M5NAFTxnVib516ATHa9PlXQrC+nOiPngouRYTCLPJyokAJEi3e1Umi5g=="
+  "resolved" "https://registry.npmjs.org/ion-rangeslider/-/ion-rangeslider-2.3.1.tgz"
+  "version" "2.3.1"
+
 "ip-regex@^2.1.0":
   "integrity" "sha1-+ni/XS5pE8kRzp+BnuUUa7bYROk="
   "resolved" "https://registry.npmjs.org/ip-regex/-/ip-regex-2.1.0.tgz"
@@ -6306,6 +6323,11 @@
   dependencies:
     "import-local" "^2.0.0"
     "jest-cli" "^24.9.0"
+
+"jquery@^3.6.0", "jquery@>=1.8":
+  "integrity" "sha512-JVzAR/AjBvVt2BmYhxRCSYysDsPcssdmTFnzyLEts9qNwmjmu4JTAMYubEfwVOSwpQ1I1sKKFcxhZCI2buerfw=="
+  "resolved" "https://registry.npmjs.org/jquery/-/jquery-3.6.0.tgz"
+  "version" "3.6.0"
 
 "js-tokens@^3.0.0 || ^4.0.0", "js-tokens@^4.0.0":
   "integrity" "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ=="

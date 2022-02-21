@@ -1,4 +1,5 @@
-import React, {ChangeEvent} from 'react'
+import React, {ChangeEvent, useState} from 'react'
+import s from '.././c7-SuperRange/SuperRange.module.css'
 
 type SuperDoubleRangePropsType = {
     // onChangeRange?: (value: [number, number]) => void
@@ -7,6 +8,8 @@ type SuperDoubleRangePropsType = {
     value: number
     // min, max, step, disable, ...
 }
+
+
 
 const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
     {
@@ -26,6 +29,7 @@ const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
                 type={'range'}
                 onChange={onChangeCallback}
                 value={value}
+                className={s.range}
 
                 {...restProps} // отдаём инпуту остальные пропсы если они есть (value например там внутри)
             />
