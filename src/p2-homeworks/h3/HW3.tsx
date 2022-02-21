@@ -18,7 +18,7 @@ function HW3() {
         user.name !== '' ? setUsers(newUsers) : ''
     }
 
-    // @ts-ignore
+
     return (
         <div>
             <hr/>
